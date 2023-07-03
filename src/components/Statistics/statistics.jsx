@@ -6,7 +6,7 @@ export const Statistics = ({ title, stats }) => {
     <section className={css.statistics}>
       <h2 className={css.title}>
         {' '}
-        {title == undefined ? `Upload stats` : `${title}`}
+        {title === undefined ? `Upload stats` : `${title}`}
       </h2>
 
       <ul className={css.statList}>
