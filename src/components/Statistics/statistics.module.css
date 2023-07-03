@@ -1,0 +1,57 @@
+.statistics {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c4c4c4cc;
+  background-color: #fff;
+  width: 400px;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.statList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 50%;
+  border-top: 1px solid #c4c4c4cc;
+  color: #fff;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.item {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.item:nth-child(1) {
+  background-color: green;
+}
+
+.item:nth-child(2) {
+  background-color: red;
+}
+
+.item:nth-child(3) {
+  background-color: aqua;
+}
+
+.item:nth-child(4) {
+  background-color: purple;
+}
+
+.item:nth-child(5) {
+  background-color: orange;
+}
